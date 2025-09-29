@@ -44,15 +44,22 @@ const Index = () => {
               <Icon name="Sprout" className="text-primary" size={32} />
               <h1 className="text-2xl font-bold text-garden-dark">СадОгород</h1>
             </div>
-            <nav className="hidden md:flex space-x-8">
-              <a href="#catalog" className="text-garden-dark hover:text-primary transition-colors">Каталог</a>
-              <a href="#delivery" className="text-garden-dark hover:text-primary transition-colors">Доставка</a>
+            <nav className="hidden lg:flex space-x-6">
+              <a href="#garlic" className="text-garden-dark hover:text-primary transition-colors">Купить чеснок</a>
+              <a href="#shop" className="text-garden-dark hover:text-primary transition-colors">Магазин</a>
+              <a href="#delivery" className="text-garden-dark hover:text-primary transition-colors">Доставка и оплата</a>
               <a href="#contacts" className="text-garden-dark hover:text-primary transition-colors">Контакты</a>
+              <a href="#account" className="text-garden-dark hover:text-primary transition-colors">Мой аккаунт</a>
             </nav>
-            <Button variant="outline" size="sm" className="border-primary text-primary hover:bg-primary hover:text-white">
-              <Icon name="ShoppingCart" size={16} className="mr-2" />
-              Корзина
-            </Button>
+            <div className="flex items-center space-x-3">
+              <Button variant="outline" size="sm" className="border-primary text-primary hover:bg-primary hover:text-white">
+                <Icon name="ShoppingCart" size={16} className="mr-2" />
+                Корзина
+              </Button>
+              <Button size="sm" className="bg-accent text-white hover:bg-accent/90">
+                Оформить заказ
+              </Button>
+            </div>
           </div>
         </div>
       </header>
@@ -85,7 +92,7 @@ const Index = () => {
       </section>
 
       {/* Products Catalog */}
-      <section id="catalog" className="py-16 bg-white">
+      <section id="garlic" className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-garden-dark mb-4">Наш каталог</h3>
@@ -211,27 +218,27 @@ const Index = () => {
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4">Каталог</h4>
+              <h4 className="font-semibold mb-4">Магазин</h4>
               <ul className="space-y-2 text-sm text-white/80">
-                <li>Озимый чеснок</li>
-                <li>Яровой чеснок</li>
-                <li>Элитные сорта</li>
-                <li>Семенной лук</li>
+                <li><a href="#garlic" className="hover:text-white transition-colors">Купить чеснок</a></li>
+                <li><a href="#shop" className="hover:text-white transition-colors">Все товары</a></li>
+                <li><a href="#cart" className="hover:text-white transition-colors">Корзина</a></li>
+                <li><a href="#checkout" className="hover:text-white transition-colors">Оформление заказа</a></li>
               </ul>
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4">Доставка</h4>
+              <h4 className="font-semibold mb-4">Доставка и оплата</h4>
               <ul className="space-y-2 text-sm text-white/80">
-                <li>По России</li>
-                <li>Почта России</li>
-                <li>СДЭК</li>
-                <li>Самовывоз</li>
+                <li><a href="#delivery" className="hover:text-white transition-colors">Условия доставки</a></li>
+                <li><a href="#payment" className="hover:text-white transition-colors">Способы оплаты</a></li>
+                <li><a href="#shipping" className="hover:text-white transition-colors">Расчёт стоимости</a></li>
+                <li><a href="#pickup" className="hover:text-white transition-colors">Самовывоз</a></li>
               </ul>
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4">Контакты</h4>
+              <h4 className="font-semibold mb-4">Поддержка</h4>
               <div className="space-y-2 text-sm text-white/80">
                 <div className="flex items-center space-x-2">
                   <Icon name="Phone" size={16} />
@@ -241,12 +248,20 @@ const Index = () => {
                   <Icon name="Mail" size={16} />
                   <span>info@sadogorod.ru</span>
                 </div>
+                <div><a href="#account" className="hover:text-white transition-colors">Мой аккаунт</a></div>
+                <div><a href="#contacts" className="hover:text-white transition-colors">Связаться с нами</a></div>
               </div>
             </div>
           </div>
           
-          <div className="border-t border-white/20 mt-8 pt-8 text-center text-sm text-white/60">
-            © 2024 СадОгород. Все права защищены.
+          <div className="border-t border-white/20 mt-8 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center text-sm text-white/60">
+              <div>© 2024 СадОгород. Все права защищены.</div>
+              <div className="flex space-x-4 mt-4 md:mt-0">
+                <a href="#privacy" className="hover:text-white transition-colors">Политика конфиденциальности</a>
+                <a href="#terms" className="hover:text-white transition-colors">Условия использования</a>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
