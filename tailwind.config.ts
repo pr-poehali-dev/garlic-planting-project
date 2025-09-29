@@ -25,41 +25,40 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#D2691E',
-					foreground: '#FFF8DC'
+					DEFAULT: '#32CD32',
+					foreground: '#FFFFFF'
 				},
 				secondary: {
-					DEFAULT: '#DEB887',
-					foreground: '#8B4513'
+					DEFAULT: '#FFD700',
+					foreground: '#228B22'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
 				},
 				muted: {
-					DEFAULT: '#FFF8DC',
-					foreground: '#A0522D'
+					DEFAULT: '#F0FFF0',
+					foreground: '#228B22'
 				},
 				accent: {
-					DEFAULT: '#CD853F',
-					foreground: '#8B4513'
+					DEFAULT: '#FF6347',
+					foreground: '#FFFFFF'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'
 				},
 				card: {
-					DEFAULT: '#FFFAF0',
-					foreground: '#8B4513'
+					DEFAULT: '#FFFFFF',
+					foreground: '#228B22'
 				},
-				autumn: {
-					gold: '#DAA520',
-					terracotta: '#D2691E',
-					wheat: '#DEB887',
-					cream: '#FFF8DC',
-					sienna: '#A0522D',
-					saddle: '#8B4513',
-					ivory: '#FFFAF0'
+				garden: {
+					lime: '#32CD32',
+					yellow: '#FFD700',
+					orange: '#FF6347',
+					mint: '#F0FFF0',
+					green: '#228B22',
+					dark: '#006400'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
