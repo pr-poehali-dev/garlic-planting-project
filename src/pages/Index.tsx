@@ -35,19 +35,19 @@ const garlicProducts = [
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-vintage-cream to-vintage-beige">
+    <div className="min-h-screen bg-gradient-to-b from-autumn-cream to-autumn-wheat">
       {/* Header */}
-      <header className="bg-vintage-cream shadow-sm border-b border-vintage-beige">
+      <header className="bg-autumn-ivory shadow-sm border-b border-autumn-wheat">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <Icon name="Sprout" className="text-primary" size={32} />
-              <h1 className="text-2xl font-bold text-vintage-dark">СадОгород</h1>
+              <h1 className="text-2xl font-bold text-autumn-saddle">СадОгород</h1>
             </div>
             <nav className="hidden md:flex space-x-8">
-              <a href="#catalog" className="text-vintage-dark hover:text-primary transition-colors">Каталог</a>
-              <a href="#delivery" className="text-vintage-dark hover:text-primary transition-colors">Доставка</a>
-              <a href="#contacts" className="text-vintage-dark hover:text-primary transition-colors">Контакты</a>
+              <a href="#catalog" className="text-autumn-saddle hover:text-primary transition-colors">Каталог</a>
+              <a href="#delivery" className="text-autumn-saddle hover:text-primary transition-colors">Доставка</a>
+              <a href="#contacts" className="text-autumn-saddle hover:text-primary transition-colors">Контакты</a>
             </nav>
             <Button variant="outline" size="sm" className="border-primary text-primary hover:bg-primary hover:text-white">
               <Icon name="ShoppingCart" size={16} className="mr-2" />
@@ -60,10 +60,10 @@ const Index = () => {
       {/* Hero Section */}
       <section className="py-20 text-center">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-5xl font-bold text-vintage-dark mb-6">
+          <h2 className="text-5xl font-bold text-autumn-saddle mb-6">
             Чеснок на посадку
           </h2>
-          <p className="text-xl text-vintage-brown/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-autumn-sienna/80 mb-8 max-w-2xl mx-auto">
             Качественный посадочный материал с гарантией всхожести. 
             Выращиваем с заботой о природе и вашем урожае.
           </p>
@@ -85,11 +85,11 @@ const Index = () => {
       </section>
 
       {/* Products Catalog */}
-      <section id="catalog" className="py-16 bg-vintage-cream">
+      <section id="catalog" className="py-16 bg-autumn-ivory">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-vintage-dark mb-4">Наш каталог</h3>
-            <p className="text-vintage-brown/70 max-w-2xl mx-auto">
+            <h3 className="text-3xl font-bold text-autumn-saddle mb-4">Наш каталог</h3>
+            <p className="text-autumn-sienna/70 max-w-2xl mx-auto">
               Отборные сорта чеснока для посадки. Каждая партия проходит проверку на всхожесть.
             </p>
           </div>
@@ -118,8 +118,8 @@ const Index = () => {
                 </div>
                 
                 <CardHeader>
-                  <CardTitle className="text-vintage-dark text-xl">{product.name}</CardTitle>
-                  <p className="text-vintage-brown/70">{product.description}</p>
+                  <CardTitle className="text-autumn-saddle text-xl">{product.name}</CardTitle>
+                  <p className="text-autumn-sienna/70">{product.description}</p>
                 </CardHeader>
                 
                 <CardContent>
@@ -153,11 +153,11 @@ const Index = () => {
       </section>
 
       {/* Guarantees Section */}
-      <section className="py-16 bg-vintage-beige">
+      <section className="py-16 bg-autumn-wheat">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-vintage-dark mb-4">Наши гарантии</h3>
-            <p className="text-vintage-brown/70">Мы отвечаем за качество каждой луковицы</p>
+            <h3 className="text-3xl font-bold text-autumn-saddle mb-4">Наши гарантии</h3>
+            <p className="text-autumn-sienna/70">Мы отвечаем за качество каждой луковицы</p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -165,39 +165,39 @@ const Index = () => {
               <div className="bg-primary/10 rounded-full p-6 w-20 h-20 mx-auto mb-4 flex items-center justify-center">
                 <Icon name="Seedling" className="text-primary" size={32} />
               </div>
-              <h4 className="font-semibold text-vintage-dark mb-2">Высокая всхожесть</h4>
-              <p className="text-vintage-brown/70 text-sm">До 99% всходов при соблюдении условий посадки</p>
+              <h4 className="font-semibold text-autumn-saddle mb-2">Высокая всхожесть</h4>
+              <p className="text-autumn-sienna/70 text-sm">До 99% всходов при соблюдении условий посадки</p>
             </div>
             
             <div className="text-center">
               <div className="bg-primary/10 rounded-full p-6 w-20 h-20 mx-auto mb-4 flex items-center justify-center">
                 <Icon name="Award" className="text-primary" size={32} />
               </div>
-              <h4 className="font-semibold text-vintage-dark mb-2">Премиум качество</h4>
-              <p className="text-vintage-brown/70 text-sm">Отбираем только лучшие экземпляры</p>
+              <h4 className="font-semibold text-autumn-saddle mb-2">Премиум качество</h4>
+              <p className="text-autumn-sienna/70 text-sm">Отбираем только лучшие экземпляры</p>
             </div>
             
             <div className="text-center">
               <div className="bg-primary/10 rounded-full p-6 w-20 h-20 mx-auto mb-4 flex items-center justify-center">
                 <Icon name="Shield" className="text-primary" size={32} />
               </div>
-              <h4 className="font-semibold text-vintage-dark mb-2">Защита покупки</h4>
-              <p className="text-vintage-brown/70 text-sm">Возврат средств при неудовлетворительном результате</p>
+              <h4 className="font-semibold text-autumn-saddle mb-2">Защита покупки</h4>
+              <p className="text-autumn-sienna/70 text-sm">Возврат средств при неудовлетворительном результате</p>
             </div>
             
             <div className="text-center">
               <div className="bg-primary/10 rounded-full p-6 w-20 h-20 mx-auto mb-4 flex items-center justify-center">
                 <Icon name="Truck" className="text-primary" size={32} />
               </div>
-              <h4 className="font-semibold text-vintage-dark mb-2">Быстрая доставка</h4>
-              <p className="text-vintage-brown/70 text-sm">Отправляем в течение 24 часов по всей России</p>
+              <h4 className="font-semibold text-autumn-saddle mb-2">Быстрая доставка</h4>
+              <p className="text-autumn-sienna/70 text-sm">Отправляем в течение 24 часов по всей России</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-vintage-dark text-vintage-cream py-12">
+      <footer className="bg-autumn-saddle text-autumn-cream py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>

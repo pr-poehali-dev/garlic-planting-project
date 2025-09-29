@@ -25,40 +25,41 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#7B8471',
-					foreground: '#FEFDF7'
+					DEFAULT: '#D2691E',
+					foreground: '#FFF8DC'
 				},
 				secondary: {
-					DEFAULT: '#E6D7C3',
-					foreground: '#4A4237'
+					DEFAULT: '#DEB887',
+					foreground: '#8B4513'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
 				},
 				muted: {
-					DEFAULT: '#F7F5F0',
-					foreground: '#6B5B47'
+					DEFAULT: '#FFF8DC',
+					foreground: '#A0522D'
 				},
 				accent: {
-					DEFAULT: '#C7B299',
-					foreground: '#4A4237'
+					DEFAULT: '#CD853F',
+					foreground: '#8B4513'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'
 				},
 				card: {
-					DEFAULT: '#FEFDF7',
-					foreground: '#4A4237'
+					DEFAULT: '#FFFAF0',
+					foreground: '#8B4513'
 				},
-				vintage: {
-					cream: '#FEFDF7',
-					beige: '#E6D7C3',
-					sage: '#7B8471',
-					warm: '#C7B299',
-					brown: '#6B5B47',
-					dark: '#4A4237'
+				autumn: {
+					gold: '#DAA520',
+					terracotta: '#D2691E',
+					wheat: '#DEB887',
+					cream: '#FFF8DC',
+					sienna: '#A0522D',
+					saddle: '#8B4513',
+					ivory: '#FFFAF0'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
